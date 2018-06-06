@@ -1,30 +1,147 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="EJk-kj-gEz">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="ufC-wZ-h7g">
+        <scene sceneID="ovI-h7-hQb">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="CustomDatePicker_Example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="EJk-kj-gEz" customClass="ViewController" customModule="CustomDatePicker_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                        <viewControllerLayoutGuide type="top" id="7Gf-Nr-C2V"/>
+                        <viewControllerLayoutGuide type="bottom" id="k69-ze-T3Y"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                    <view key="view" contentMode="scaleToFill" id="L3J-tY-MEs">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Custom Date Picker Example" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="4" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2aB-dv-w0f">
+                                <rect key="frame" x="0.0" y="28" width="375" height="73"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="73" id="8hM-qC-kQU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Normal UIDatePicker:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z3M-HX-vBa">
+                                <rect key="frame" x="0.0" y="113" width="164" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="0WZ-SV-rCQ"/>
+                                    <constraint firstAttribute="width" constant="164" id="bJH-ah-BGJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Custom DatePicker:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BI7-y0-1cB">
+                                <rect key="frame" x="0.0" y="308" width="152" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="rgx-uW-01m"/>
+                                    <constraint firstAttribute="width" constant="152" id="vRP-dJ-vVR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="6dn-Dv-gas">
+                                <rect key="frame" x="0.0" y="134" width="375" height="162"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="162" id="Mbc-Gp-R9D"/>
+                                </constraints>
+                                <date key="date" timeIntervalSinceReferenceDate="545196859.45422804">
+                                    <!--2018-04-12 03:34:19 +0000-->
+                                </date>
+                            </datePicker>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WhK-uG-71X" customClass="CustomDatePicker" customModule="CustomDatePicker">
+                                <rect key="frame" x="0.0" y="329" width="375" height="162"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1YP-OI-UKg">
+                                <rect key="frame" x="0.0" y="499" width="375" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Jyc-w6-IU5"/>
+                                </constraints>
+                                <state key="normal" title="Change Date To Distant Future"/>
+                                <connections>
+                                    <action selector="distantFuture:" destination="EJk-kj-gEz" eventType="touchUpInside" id="C4Z-EZ-QBc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dhh-ht-SSN">
+                                <rect key="frame" x="0.0" y="529" width="375" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="9pT-YD-Ckc"/>
+                                </constraints>
+                                <state key="normal" title="Change Date To Today"/>
+                                <connections>
+                                    <action selector="today:" destination="EJk-kj-gEz" eventType="touchUpInside" id="U8Z-KQ-c9q"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QPY-1E-IUw">
+                                <rect key="frame" x="0.0" y="559" width="375" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="P9z-IG-DYI"/>
+                                </constraints>
+                                <state key="normal" title="Change Font and Color"/>
+                                <connections>
+                                    <action selector="changeFontAndColor:" destination="EJk-kj-gEz" eventType="touchUpInside" id="OrV-4e-I9K"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JHN-gB-qj4">
+                                <rect key="frame" x="0.0" y="589" width="375" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="cpk-aA-8JP"/>
+                                </constraints>
+                                <state key="normal" title="Reset Font And Color"/>
+                                <connections>
+                                    <action selector="resetFontAndColor:" destination="EJk-kj-gEz" eventType="touchUpInside" id="aGY-FY-vyb"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="QPY-1E-IUw" firstAttribute="leading" secondItem="L3J-tY-MEs" secondAttribute="leading" id="0cm-0G-4zI"/>
+                            <constraint firstAttribute="trailing" secondItem="6dn-Dv-gas" secondAttribute="trailing" id="0ph-kR-pyL"/>
+                            <constraint firstItem="WhK-uG-71X" firstAttribute="top" secondItem="BI7-y0-1cB" secondAttribute="bottom" id="3CI-VS-C4U"/>
+                            <constraint firstItem="QPY-1E-IUw" firstAttribute="top" secondItem="dhh-ht-SSN" secondAttribute="bottom" id="3Fp-1O-4cZ"/>
+                            <constraint firstItem="WhK-uG-71X" firstAttribute="width" secondItem="6dn-Dv-gas" secondAttribute="width" id="CAY-h2-oQl"/>
+                            <constraint firstItem="1YP-OI-UKg" firstAttribute="leading" secondItem="L3J-tY-MEs" secondAttribute="leading" id="DOC-nd-R1U"/>
+                            <constraint firstItem="2aB-dv-w0f" firstAttribute="top" secondItem="7Gf-Nr-C2V" secondAttribute="bottom" constant="8" id="EPT-5p-N4T"/>
+                            <constraint firstItem="WhK-uG-71X" firstAttribute="height" secondItem="6dn-Dv-gas" secondAttribute="height" id="G91-ZI-9xO"/>
+                            <constraint firstAttribute="trailing" secondItem="dhh-ht-SSN" secondAttribute="trailing" id="JY6-VC-T7R"/>
+                            <constraint firstItem="dhh-ht-SSN" firstAttribute="top" secondItem="1YP-OI-UKg" secondAttribute="bottom" id="Xj2-4T-EIK"/>
+                            <constraint firstAttribute="trailing" secondItem="2aB-dv-w0f" secondAttribute="trailing" id="Yjn-92-Ohm"/>
+                            <constraint firstItem="BI7-y0-1cB" firstAttribute="top" secondItem="6dn-Dv-gas" secondAttribute="bottom" constant="12" id="aDV-RE-mhb"/>
+                            <constraint firstAttribute="trailing" secondItem="1YP-OI-UKg" secondAttribute="trailing" id="cC6-5K-TEc"/>
+                            <constraint firstItem="dhh-ht-SSN" firstAttribute="leading" secondItem="L3J-tY-MEs" secondAttribute="leading" id="emj-2e-hD2"/>
+                            <constraint firstItem="z3M-HX-vBa" firstAttribute="leading" secondItem="L3J-tY-MEs" secondAttribute="leading" id="i6J-0p-JuP"/>
+                            <constraint firstAttribute="trailing" secondItem="JHN-gB-qj4" secondAttribute="trailing" id="iX8-9t-LgQ"/>
+                            <constraint firstItem="z3M-HX-vBa" firstAttribute="top" secondItem="2aB-dv-w0f" secondAttribute="bottom" constant="12" id="jie-8K-cRN"/>
+                            <constraint firstItem="JHN-gB-qj4" firstAttribute="leading" secondItem="L3J-tY-MEs" secondAttribute="leading" id="ljx-dr-5Me"/>
+                            <constraint firstItem="JHN-gB-qj4" firstAttribute="top" secondItem="QPY-1E-IUw" secondAttribute="bottom" id="mWX-V4-mjA"/>
+                            <constraint firstAttribute="trailing" secondItem="QPY-1E-IUw" secondAttribute="trailing" id="nTQ-cq-cUo"/>
+                            <constraint firstItem="BI7-y0-1cB" firstAttribute="leading" secondItem="L3J-tY-MEs" secondAttribute="leading" id="r6L-9n-0yi"/>
+                            <constraint firstItem="WhK-uG-71X" firstAttribute="leading" secondItem="L3J-tY-MEs" secondAttribute="leading" id="rGD-u3-SrV"/>
+                            <constraint firstItem="2aB-dv-w0f" firstAttribute="leading" secondItem="L3J-tY-MEs" secondAttribute="leading" id="rpr-3D-XfQ"/>
+                            <constraint firstItem="6dn-Dv-gas" firstAttribute="leading" secondItem="L3J-tY-MEs" secondAttribute="leading" id="seF-tn-PAu"/>
+                            <constraint firstItem="6dn-Dv-gas" firstAttribute="top" secondItem="z3M-HX-vBa" secondAttribute="bottom" id="w3V-2a-ZvW"/>
+                            <constraint firstItem="1YP-OI-UKg" firstAttribute="top" secondItem="WhK-uG-71X" secondAttribute="bottom" constant="8" id="yVM-xb-MLD"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="customDatePicker" destination="WhK-uG-71X" id="qOF-92-K7H"/>
+                        <outlet property="datePicker" destination="6dn-Dv-gas" id="arx-Mf-xpA"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oEu-zL-We8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-215.19999999999999" y="222.63868065967017"/>
         </scene>
     </scenes>
 </document>
