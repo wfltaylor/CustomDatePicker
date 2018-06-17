@@ -1,9 +1,9 @@
 # CustomDatePicker
 
 [![CI Status](http://img.shields.io/travis/wfltaylor/CustomDatePicker.svg?style=flat)](https://travis-ci.org/wfltaylor/CustomDatePicker)
-[![Version](https://img.shields.io/cocoapods/v/CustomDatePicker.svg?style=flat)](http://cocoapods.org/pods/CustomDatePicker)
-[![License](https://img.shields.io/cocoapods/l/CustomDatePicker.svg?style=flat)](http://cocoapods.org/pods/CustomDatePicker)
-[![Platform](https://img.shields.io/cocoapods/p/CustomDatePicker.svg?style=flat)](http://cocoapods.org/pods/CustomDatePicker)
+[![Version](https://img.shields.io/cocoapods/v/WTCustomDatePicker.svg?style=flat)](http://cocoapods.org/pods/WTCustomDatePicker)
+[![License](https://img.shields.io/cocoapods/l/WTCustomDatePicker.svg?style=flat)](http://cocoapods.org/pods/WTCustomDatePicker)
+[![Platform](https://img.shields.io/cocoapods/p/WTCustomDatePicker.svg?style=flat)](http://cocoapods.org/pods/WTCustomDatePicker)
 
 ## Example
 
