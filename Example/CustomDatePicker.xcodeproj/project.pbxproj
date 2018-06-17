@@ -12,8 +12,19 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		9C3A1DDC20807B7900593B1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3A1DDB20807B7900593B1A /* ViewController.swift */; };
+		9C5E23A420D6205E0034B233 /* CustomDatePicker_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5E23A320D6205E0034B233 /* CustomDatePicker_ExampleTests.swift */; };
 		D573C90C78A8E04FC499A582 /* Pods_CustomDatePicker_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9F673007A06001A6625C04C /* Pods_CustomDatePicker_Example.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C5E23A620D6205E0034B233 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
+			remoteInfo = CustomDatePicker_Example;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0D9CE294A63EC9DD98B93EA4 /* Pods-CustomDatePicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomDatePicker_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomDatePicker_Tests/Pods-CustomDatePicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -30,6 +41,9 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		79C9488B204CBF762B09F8FC /* Pods-CustomDatePicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomDatePicker_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomDatePicker_Tests/Pods-CustomDatePicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9C3A1DDB20807B7900593B1A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9C5E23A120D6205E0034B233 /* CustomDatePicker_ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomDatePicker_ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C5E23A320D6205E0034B233 /* CustomDatePicker_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDatePicker_ExampleTests.swift; sourceTree = "<group>"; };
+		9C5E23A520D6205E0034B233 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C8662A42080791B0020C44E /* CustomDatePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CustomDatePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9F673007A06001A6625C04C /* Pods_CustomDatePicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomDatePicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2DD73C4594AA6AD5F7EC8C2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -44,6 +58,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9C5E239E20D6205E0034B233 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -52,6 +73,7 @@
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for CustomDatePicker */,
+				9C5E23A220D6205E0034B233 /* CustomDatePicker_ExampleTests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				8D02FD63296328A26CC8CA70 /* Pods */,
 				7C51AFBA28DB565B824D3306 /* Frameworks */,
@@ -62,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACD01AFB9204008FA782 /* CustomDatePicker_Example.app */,
+				9C5E23A120D6205E0034B233 /* CustomDatePicker_ExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,6 +142,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		9C5E23A220D6205E0034B233 /* CustomDatePicker_ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C5E23A320D6205E0034B233 /* CustomDatePicker_ExampleTests.swift */,
+				9C5E23A520D6205E0034B233 /* Info.plist */,
+			);
+			path = CustomDatePicker_ExampleTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,13 +174,31 @@
 			productReference = 607FACD01AFB9204008FA782 /* CustomDatePicker_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
+		9C5E23A020D6205E0034B233 /* CustomDatePicker_ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C5E23AA20D6205E0034B233 /* Build configuration list for PBXNativeTarget "CustomDatePicker_ExampleTests" */;
+			buildPhases = (
+				9C5E239D20D6205E0034B233 /* Sources */,
+				9C5E239E20D6205E0034B233 /* Frameworks */,
+				9C5E239F20D6205E0034B233 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C5E23A720D6205E0034B233 /* PBXTargetDependency */,
+			);
+			name = CustomDatePicker_ExampleTests;
+			productName = CustomDatePicker_ExampleTests;
+			productReference = 9C5E23A120D6205E0034B233 /* CustomDatePicker_ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
+				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
@@ -156,6 +206,12 @@
 						CreatedOnToolsVersion = 6.3.1;
 						DevelopmentTeam = 5RTMJNH82H;
 						LastSwiftMigration = 0900;
+					};
+					9C5E23A020D6205E0034B233 = {
+						CreatedOnToolsVersion = 9.4;
+						DevelopmentTeam = 5RTMJNH82H;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
 			};
@@ -173,6 +229,7 @@
 			projectRoot = "";
 			targets = (
 				607FACCF1AFB9204008FA782 /* CustomDatePicker_Example */,
+				9C5E23A020D6205E0034B233 /* CustomDatePicker_ExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -185,6 +242,13 @@
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C5E239F20D6205E0034B233 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,7 +318,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9C5E239D20D6205E0034B233 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C5E23A420D6205E0034B233 /* CustomDatePicker_ExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C5E23A720D6205E0034B233 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 607FACCF1AFB9204008FA782 /* CustomDatePicker_Example */;
+			targetProxy = 9C5E23A620D6205E0034B233 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
@@ -409,6 +489,62 @@
 			};
 			name = Release;
 		};
+		9C5E23A820D6205E0034B233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 5RTMJNH82H;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = CustomDatePicker_ExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WT-Tech.CustomDatePicker-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomDatePicker_Example.app/CustomDatePicker_Example";
+			};
+			name = Debug;
+		};
+		9C5E23A920D6205E0034B233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5RTMJNH82H;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = CustomDatePicker_ExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WT-Tech.CustomDatePicker-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomDatePicker_Example.app/CustomDatePicker_Example";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -426,6 +562,15 @@
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,
 				607FACF11AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C5E23AA20D6205E0034B233 /* Build configuration list for PBXNativeTarget "CustomDatePicker_ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C5E23A820D6205E0034B233 /* Debug */,
+				9C5E23A920D6205E0034B233 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

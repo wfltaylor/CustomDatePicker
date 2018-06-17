@@ -40,7 +40,6 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
@@ -50,6 +49,16 @@
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
                BuildableName = "CustomDatePicker_Tests.xctest"
                BlueprintName = "CustomDatePicker_Tests"
+               ReferencedContainer = "container:CustomDatePicker.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9C5E23A020D6205E0034B233"
+               BuildableName = "CustomDatePicker_ExampleTests.xctest"
+               BlueprintName = "CustomDatePicker_ExampleTests"
                ReferencedContainer = "container:CustomDatePicker.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -70,7 +79,6 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
