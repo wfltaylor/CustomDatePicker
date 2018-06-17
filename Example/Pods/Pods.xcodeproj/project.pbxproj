@@ -42,7 +42,7 @@
 		6D50C864C229C358EA240429291E63EC /* Pods-CustomDatePicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CustomDatePicker_Example-frameworks.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		966B9A0CD0E1C3974A2179C74CB38D6B /* Pods-CustomDatePicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CustomDatePicker_Example.modulemap"; sourceTree = "<group>"; };
-		96D51D157230E0D85BA2B10764C72B4C /* CustomDatePicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = CustomDatePicker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96D51D157230E0D85BA2B10764C72B4C /* WTCustomDatePicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = WTCustomDatePicker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9A716B18D5915E9C902ED4AB6A8A6D4C /* Pods-CustomDatePicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CustomDatePicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A6733BB84205B16A87311370A5F40FB8 /* CustomDatePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CustomDatePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF050E902BF77F390956CC85756FAFF3 /* CustomDatePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CustomDatePicker-umbrella.h"; sourceTree = "<group>"; };
@@ -76,7 +76,7 @@
 		0105F4179F9FF2045DE48F5E9C2B3683 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				96D51D157230E0D85BA2B10764C72B4C /* CustomDatePicker.podspec */,
+				96D51D157230E0D85BA2B10764C72B4C /* WTCustomDatePicker.podspec */,
 				40F50A84E27E301DA39886A19E087160 /* LICENSE */,
 				D7DCD0E1FB2B5C8774F02A31C9429127 /* README.md */,
 			);

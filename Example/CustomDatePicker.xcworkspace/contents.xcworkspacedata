@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:CustomDatePicker.xcodeproj">
+      location = "group:/Users/williamtaylor/Documents/Code/Pods/CustomDatePicker/CustomDatePicker/Example/WTCustomDatePicker.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
