@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WTCustomDatePicker'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'A custom date picker similar to UIDatePicker with more customisation options.'
   s.swift_version    = '4.0'
 
