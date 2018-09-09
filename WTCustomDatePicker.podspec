@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WTCustomDatePicker'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'A custom date picker similar to UIDatePicker with more customisation options.'
   s.swift_version    = '4.0'
 
@@ -29,7 +29,7 @@ A custom date picker similar to UIDatePicker with more customisation options. It
   s.source           = { :git => 'https://github.com/wfltaylor/CustomDatePicker.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'CustomDatePicker/Classes/**/*'
   
