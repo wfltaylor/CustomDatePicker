@@ -29,7 +29,7 @@ A custom date picker similar to UIDatePicker with more customisation options. It
   s.source           = { :git => 'https://github.com/wfltaylor/CustomDatePicker.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'CustomDatePicker/Classes/**/*'
   
